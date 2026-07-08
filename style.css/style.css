@@ -70,6 +70,11 @@ ul li a {
   margin-bottom: 8px;
 }
 
+.hero-parent img {
+  display: block;
+  width: 100%;
+}
+
 .hero-left-p1 {
   font-size: 20px;
   font-width: 600;
@@ -132,4 +137,164 @@ ul li a {
 
 .what-i-do-card-container .what-i-do-card h2 {
   margin: 10px 0;
+}
+
+/* AI */
+
+.summary h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.education-summary-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.education-summary-container > div {
+  width: calc(50% - 20px);
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.education-summary-container h2 {
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.education-summary-container p {
+  color: #757575;
+  line-height: 28px;
+}
+
+.my-amazing-parent {
+  text-align: center;
+}
+
+.my-amazing-parent h2 {
+  margin-top: 30px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    'one two three'
+    'four two six'
+    'four five six';
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.box1 {
+  grid-area: one;
+}
+.box2 {
+  grid-area: two;
+}
+.box3 {
+  grid-area: three;
+}
+.box4 {
+  grid-area: four;
+}
+.box5 {
+  grid-area: five;
+}
+.box6 {
+  grid-area: six;
+}
+
+/* Footer */
+/* Footer */
+.footer {
+  background-color: #fff8f3;
+  margin-top: 80px;
+  padding: 80px;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+/* Left Section */
+
+.footer-left h2,
+.footer-right h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-left p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+/* Social Icons */
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Form */
+
+.footer-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-right input,
+.footer-right textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.footer-right textarea {
+  resize: vertical;
+  min-height: 160px;
+}
+
+/* Button */
+
+.common-btn {
+  width: fit-content;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.common-btn:hover {
+  background: #e85d04;
 }
