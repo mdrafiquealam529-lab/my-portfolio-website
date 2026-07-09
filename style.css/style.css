@@ -85,7 +85,7 @@ ul li a {
 }
 
 .hero-parent-root {
-  background-color: #bb560e;
+  background-color: #fd6e0a;
 }
 
 .about-parent {
@@ -106,7 +106,7 @@ ul li a {
   gap: 8px;
 }
 .about-box-parent .box {
-  background-color: #bb560e;
+  background-color: #fd6e0a;
   border-radius: 10px;
   padding: 5px;
 }
@@ -124,7 +124,7 @@ ul li a {
 }
 
 .what-i-do-card-container .what-i-do-card {
-  border: 2px solid #bb560e;
+  border: 2px solid #fd6e0a;
   padding: 8px;
   border-radius: 10px;
   text-align: left;
