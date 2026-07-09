@@ -66,7 +66,7 @@ ul li a {
 
 .hero-left h2 {
   font-width: bold;
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 8px;
 }
 
@@ -90,7 +90,7 @@ ul li a {
 
 .about-parent {
   background-color: #fff8f3;
-  margin: 75px auto;
+  margin: 30px auto;
   border-radius: 10px;
   padding: 35px;
   text-align: center;
@@ -297,4 +297,14 @@ ul li a {
 
 .common-btn:hover {
   background: #e85d04;
+}
+
+.downloan-cb {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.downloan-cb common-btn:hover {
+  background-color: #fd6e0a;
 }
